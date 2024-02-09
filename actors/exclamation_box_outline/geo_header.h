@@ -1,0 +1,7 @@
+extern const GeoLayout exclamation_box_outline_geo[];
+extern u8 exclamation_box_outline_exclamation_box_outline_rgba16_rgba16[];
+extern Vtx exclamation_box_outline_000_displaylist_mesh_layer_4_vtx_0[85];
+extern Gfx exclamation_box_outline_000_displaylist_mesh_layer_4_tri_0[];
+extern Gfx mat_exclamation_box_outline_Exclamation_Box_Outline[];
+extern Gfx mat_revert_exclamation_box_outline_Exclamation_Box_Outline[];
+extern Gfx exclamation_box_outline_000_displaylist_mesh_layer_4[];

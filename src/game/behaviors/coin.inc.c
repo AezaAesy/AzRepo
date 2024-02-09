@@ -92,6 +92,8 @@ void bhv_coin_init(void) {
     cur_obj_set_behavior(bhvYellowCoin);
     obj_set_hitbox(o, &sYellowCoinHitbox);
     cur_obj_become_intangible();
+    o->oFaceAnglePitch = 0;
+    o->oFaceAngleRoll = 0;
 }
 
 void bhv_coin_loop(void) {
@@ -166,7 +168,7 @@ void bhv_coin_formation_spawned_coin_loop(void) {
             cur_obj_update_floor_height();
 
             if (absf(o->oPosY - o->oFloorHeight) > 250.0f) {
-                cur_obj_set_model(MODEL_YELLOW_COIN_NO_SHADOW);
+                cur_obj_set_model(MODEL_YELLOW_COIN);
             }
         }
     } else {

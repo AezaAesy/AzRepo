@@ -294,4 +294,38 @@ extern const Gfx wooden_signpost_seg3_dl_0302DCD0[];
 extern const Gfx wooden_signpost_seg3_dl_0302DD08[];
 extern const Collision wooden_signpost_seg3_collision_0302DD80[];
 
+#include "star/geo_header.h"
+
+#include "transparent_star/geo_header.h"
+
+#include "mushroom_1up/geo_header.h"
+
+#include "yellow_coin/geo_header.h"
+
+#include "red_coin/geo_header.h"
+
+#include "blue_coin/geo_header.h"
+
+#include "castle_door_new/geo_header.h"
+
+#include "castle_door_0_star_new/geo_header.h"
+
+#include "castle_door_1_star_new/geo_header.h"
+
+#include "castle_door_3_star_new/geo_header.h"
+
+#include "key_door_new/geo_header.h"
+
+#include "wooden_door_new/geo_header.h"
+
+#include "haunted_door_new/geo_header.h"
+
+#include "metal_door_new/geo_header.h"
+
+#include "large_sliding_door/geo_header.h"
+
+#include "hazy_maze_door_new/geo_header.h"
+
+#include "wooden_signpost/geo_header.h"
+
 #endif

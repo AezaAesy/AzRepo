@@ -19,8 +19,8 @@ extern const Gfx blue_coin_switch_seg8_dl_08000E08[];
 extern const Collision blue_coin_switch_seg8_collision_08000E98[];
 
 // bobomb
-extern const GeoLayout black_bobomb_geo[];
-extern const GeoLayout bobomb_buddy_geo[];
+extern const GeoLayout bobomb_unfriendly_geo[];
+extern const GeoLayout bobomb_friendly_geo[];
 extern const Gfx bobomb_seg8_dl_08022AC0[];
 extern const Gfx bobomb_seg8_dl_08022B08[];
 extern const Gfx bobomb_seg8_dl_08022B58[];
@@ -194,5 +194,27 @@ extern const Collision purple_switch_seg8_collision_0800C7A8[];
 extern const GeoLayout test_platform_geo[];
 extern const Gfx unknown_seg8_dl_08026260[];
 extern const Collision unknown_seg8_collision_080262F8[];
+
+#include "exclamation_box_outline/geo_header.h"
+
+#include "exclamation_mark/geo_header.h"
+
+#include "exclamation_box/geo_header.h"
+
+#include "bobomb_friendly/geo_header.h"
+
+#include "bobomb_unfriendly/geo_header.h"
+
+#include "purple_switch/geo_header.h"
+
+#include "chuckya/geo_header.h"
+
+#include "blue_coin_switch/geo_header.h"
+
+#include "flyguy/geo_header.h"
+
+#include "cannon_base/geo_header.h"
+
+#include "cannon_barrel/geo_header.h"
 
 #endif

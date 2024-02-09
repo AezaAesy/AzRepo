@@ -5,7 +5,7 @@ static struct ObjectHitbox sMoneybagHitbox = {
     /* downOffset:        */ 0,
     /* damageOrCoinValue: */ 2,
     /* health:            */ 1,
-    /* numLootCoins:      */ 0,
+    /* numLootCoins:      */ 5,
     /* radius:            */ 120,
     /* height:            */ 60,
     /* hurtboxRadius:     */ 100,
@@ -169,7 +169,7 @@ void moneybag_act_disappear(void) {
 
 void moneybag_act_death(void) {
     if (o->oTimer == 1) {
-        obj_spawn_yellow_coins(o, 5);
+        obj_spawn_loot_yellow_coins(o, o->oNumLootCoins, 20.0f);
         create_sound_spawner(SOUND_GENERAL_SPLATTERING);
         spawn_mist_particles();
         o->activeFlags = ACTIVE_FLAG_DEACTIVATED;

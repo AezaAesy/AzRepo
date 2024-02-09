@@ -19,8 +19,8 @@
 #include "level_table.h"
 #include "rumble_init.h"
 
-#define MIN_SWIM_STRENGTH 160
-#define MIN_SWIM_SPEED 16.0f
+#define MIN_SWIM_STRENGTH 325
+#define MIN_SWIM_SPEED 32.0f
 
 static s16 sWasAtSurface = FALSE;
 static s16 sSwimStrength = MIN_SWIM_STRENGTH;
@@ -226,7 +226,7 @@ static void stationary_slow_down(struct MarioState *m) {
 
 static void update_swimming_speed(struct MarioState *m, f32 decelThreshold) {
     f32 buoyancy = get_buoyancy(m);
-    f32 maxSpeed = 28.0f;
+    f32 maxSpeed = 50.0f;
 
     if (m->action & ACT_FLAG_STATIONARY) {
         m->forwardVel -= 2.0f;

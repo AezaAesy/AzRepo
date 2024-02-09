@@ -1,0 +1,14 @@
+extern const GeoLayout spiny_egg_geo[];
+extern u8 spiny_egg_Red_Shine_ci8[];
+extern u8 spiny_egg_Red_Shine_pal_rgba16[];
+extern u8 spiny_egg_Yellow_Shine_ci8[];
+extern u8 spiny_egg_Yellow_Shine_pal_rgba16[];
+extern Vtx spiny_egg_000_offset_mesh_layer_1_vtx_0[122];
+extern Gfx spiny_egg_000_offset_mesh_layer_1_tri_0[];
+extern Vtx spiny_egg_000_offset_mesh_layer_1_vtx_1[56];
+extern Gfx spiny_egg_000_offset_mesh_layer_1_tri_1[];
+extern Gfx mat_spiny_egg_Red_Shine[];
+extern Gfx mat_revert_spiny_egg_Red_Shine[];
+extern Gfx mat_spiny_egg_Yellow_Shine[];
+extern Gfx mat_revert_spiny_egg_Yellow_Shine[];
+extern Gfx spiny_egg_000_offset_mesh_layer_1[];

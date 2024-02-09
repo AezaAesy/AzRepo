@@ -87,3 +87,17 @@ UNUSED static const u64 binid_21 = 21;
 
 #include "tree/model.inc.c"
 UNUSED static const u64 binid_22 = 22;
+
+#include "yellow_coin/model.inc.c"
+#include "red_coin/model.inc.c"
+#include "blue_coin/model.inc.c"
+#include "castle_door_new/model.inc.c"
+#include "castle_door_0_star_new/model.inc.c"
+#include "castle_door_1_star_new/model.inc.c"
+#include "castle_door_3_star_new/model.inc.c"
+#include "key_door_new/model.inc.c"
+#include "wooden_door_new/model.inc.c"
+#include "haunted_door_new/model.inc.c"
+#include "metal_door_new/model.inc.c"
+#include "large_sliding_door/model.inc.c"
+#include "hazy_maze_door_new/model.inc.c"

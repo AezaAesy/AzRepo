@@ -1,0 +1,14 @@
+extern const GeoLayout haunted_door_new_geo[];
+extern u8 haunted_door_new_Purple_Shine_ci8[];
+extern u8 haunted_door_new_Purple_Shine_pal_rgba16[];
+extern u8 haunted_door_new_Haunted_Door_ci8[];
+extern u8 haunted_door_new_Haunted_Door_pal_rgba16[];
+extern Vtx haunted_door_new_000_offset_002_mesh_layer_1_vtx_0[95];
+extern Gfx haunted_door_new_000_offset_002_mesh_layer_1_tri_0[];
+extern Vtx haunted_door_new_000_offset_002_mesh_layer_1_vtx_1[95];
+extern Gfx haunted_door_new_000_offset_002_mesh_layer_1_tri_1[];
+extern Gfx mat_haunted_door_new_Purple_Shine[];
+extern Gfx mat_revert_haunted_door_new_Purple_Shine[];
+extern Gfx mat_haunted_door_new_Castle_Door[];
+extern Gfx mat_revert_haunted_door_new_Castle_Door[];
+extern Gfx haunted_door_new_000_offset_002_mesh_layer_1[];

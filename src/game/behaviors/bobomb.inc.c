@@ -5,7 +5,7 @@ static struct ObjectHitbox sBobombHitbox = {
     /* downOffset:        */ 0,
     /* damageOrCoinValue: */ 0,
     /* health:            */ 0,
-    /* numLootCoins:      */ 0,
+    /* numLootCoins:      */ 1,
     /* radius:            */ 65,
     /* height:            */ 113,
     /* hurtboxRadius:     */ 0,
@@ -21,7 +21,7 @@ void bhv_bobomb_init(void) {
 
 void bobomb_spawn_coin(void) {
     if (!(GET_BPARAM3(o->oBehParams) & RESPAWN_INFO_TYPE_NORMAL)) {
-        obj_spawn_yellow_coins(o, 1);
+        obj_spawn_loot_yellow_coins(o, o->oNumLootCoins, 20.0f);
         SET_FULL_BPARAM3(o->oBehParams, RESPAWN_INFO_TYPE_NORMAL);
         set_object_respawn_info_bits(o, RESPAWN_INFO_TYPE_NORMAL);
     }

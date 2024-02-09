@@ -1,0 +1,14 @@
+extern const GeoLayout mushroom_1up_geo[];
+extern u8 mushroom_1up__1Up_Mushroom_ci8[];
+extern u8 mushroom_1up__1Up_Mushroom_pal_rgba16[];
+extern u8 mushroom_1up_Eyes_ia8[];
+extern Vtx mushroom_1up_000_displaylist_mesh_layer_1_vtx_0[122];
+extern Gfx mushroom_1up_000_displaylist_mesh_layer_1_tri_0[];
+extern Vtx mushroom_1up_000_displaylist_mesh_layer_6_vtx_0[12];
+extern Gfx mushroom_1up_000_displaylist_mesh_layer_6_tri_0[];
+extern Gfx mat_mushroom_1up__1Up_Mushroom[];
+extern Gfx mat_revert_mushroom_1up__1Up_Mushroom[];
+extern Gfx mat_mushroom_1up_Eyes[];
+extern Gfx mat_revert_mushroom_1up_Eyes[];
+extern Gfx mushroom_1up_000_displaylist_mesh_layer_1[];
+extern Gfx mushroom_1up_000_displaylist_mesh_layer_6[];

@@ -1,6 +1,6 @@
 // 0x16000FE8
 const GeoLayout bubbly_tree_geo[] = {
-   GEO_CULLING_RADIUS(800),
+   GEO_CULLING_RADIUS(1600),
    GEO_OPEN_NODE(),
 #ifdef OBJ_OPACITY_BY_CAM_DIST
       GEO_ASM(GEO_TRANSPARENCY_MODE_INTER, geo_update_layer_transparency),
@@ -18,7 +18,7 @@ const GeoLayout bubbly_tree_geo[] = {
 
 // 0x16001000
 const GeoLayout spiky_tree_geo[] = {
-   GEO_CULLING_RADIUS(800),
+   GEO_CULLING_RADIUS(1600),
    GEO_OPEN_NODE(),
 #ifdef OBJ_OPACITY_BY_CAM_DIST
       GEO_ASM(GEO_TRANSPARENCY_MODE_INTER, geo_update_layer_transparency),

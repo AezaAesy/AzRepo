@@ -1,0 +1,14 @@
+extern const GeoLayout blue_coin_geo[];
+extern u8 blue_coin_Blue_Shine_ci8[];
+extern u8 blue_coin_Blue_Shine_pal_rgba16[];
+extern u8 blue_coin_Darker_Blue_Shine_ci8[];
+extern u8 blue_coin_Darker_Blue_Shine_pal_rgba16[];
+extern Vtx blue_coin_000_displaylist_mesh_layer_1_vtx_0[135];
+extern Gfx blue_coin_000_displaylist_mesh_layer_1_tri_0[];
+extern Vtx blue_coin_000_displaylist_mesh_layer_1_vtx_1[136];
+extern Gfx blue_coin_000_displaylist_mesh_layer_1_tri_1[];
+extern Gfx mat_blue_coin_Blue_Shine[];
+extern Gfx mat_revert_blue_coin_Blue_Shine[];
+extern Gfx mat_blue_coin_Darker_Blue_Shine[];
+extern Gfx mat_revert_blue_coin_Darker_Blue_Shine[];
+extern Gfx blue_coin_000_displaylist_mesh_layer_1[];

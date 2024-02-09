@@ -254,7 +254,7 @@ static void platform_on_track_act_move_along_track(void) {
                 }
                 obj_forward_vel_approach(targetVel, 0.1f);
 #else
-                o->oForwardVel = 10.0f;
+                o->oForwardVel = 20.0f;
 #endif
             }
 

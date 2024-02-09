@@ -2097,3 +2097,105 @@ Arrgghh!\n\
 Anyone entering this cave\n\
 without permission will\n\
 meet certain disaster."))
+
+DEFINE_DIALOG(DIALOG_170, 1, 5, 30, 200, _("\
+Oh Mario! Helloooo!\n\
+Super-duper to see ya\n\
+hoppin' around! Y'know,\n\
+it's been a bit of a\n\
+bumpy ride lately,\n\
+not all sparkles\n\
+and joy, ya see.\n\
+These utterly wacky\n\
+Bob-ombs just keep\n\
+on buggin' us,\n\
+never takin'\n\
+a break! Whew!"))
+
+DEFINE_DIALOG(DIALOG_171, 1, 5, 95, 200, _("\
+Hey! Psst!\n\
+We could really\n\
+use a hand...\n\
+Those pesky Toads,\n\
+they're just not\n\
+letting up,\n\
+making everything a\n\
+real fuse-lighter\n\
+for us.\n\
+It's like, zap! Boom! \n\
+Non-stop lightning\n\
+striking our\n\
+cannon-homes!\n\
+\n\
+\n\
+Could you,\n\
+maybe,\n\
+chat with them on\n\
+our behalf?\n\
+\n\
+Pretty please!\n\
+with a cherry\n\
+bomb on top?"))
+
+DEFINE_DIALOG(DIALOG_172, 1, 5, 95, 200, _("\
+HEY!? Buddy,\n\
+you gotta help me out\n\
+here! Have ya seen my\n\
+wife around? Last time\n\
+I spotted her,\n\
+she was hangin' with\n\
+this rough bunch she\n\
+calls 'friends'.\n\
+They were all talkin'\n\
+about lighting up some\n\
+fuse, I think.\n\
+Ah, I really miss her.\n\
+You haven't seen her,\n\
+have you?"))
+
+DEFINE_DIALOG(DIALOG_173, 1, 4, 95, 200, _("\
+Y'know,\n\
+I gotta be honest here,\n\
+and no hard feelings\n\
+or anything,\n\
+but I kinda think\n\
+those Toads are\n\
+a tad mean to me.\n\
+Just sayin',\n\
+it's been a bit of\n\
+a bumpy ride with\n\
+them around..."))
+
+DEFINE_DIALOG(DIALOG_174, 1, 5, 95, 200, _("\
+Heya Mario!!!\n\
+Check out these\n\
+absolutely GORGEOUS\n\
+lightning bolts down\n\
+below!\n\
+All thanks to the\n\
+amazing Toadingsmith!\n\
+that guy's a genius\n\
+with a spark and a\n\
+bang! Seriously,\n\
+\n\
+\n\
+\n\
+\n\
+pure greatness!"))
+
+DEFINE_DIALOG(DIALOG_175, 1, 6, 95, 200, _("\
+Mario?\n\
+Oh, it's a relief\n\
+to see you!\n\
+Thought for a moment\n\
+it was one of those,\n\
+you know,\n\
+Bob-ombs\n\
+causing a ruckus.\n\
+Those little\n\
+troublemakers have\n\
+been getting on my\n\
+nerves lately!!!"))
+
+DEFINE_DIALOG(DIALOG_176, 1, 1, 95, 200, _("\
+Out on vacation."))
